@@ -1,0 +1,363 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline-style: none;
+}
+html {
+	font-size: 16px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body>header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: absolute;
+    background-color: rgba(4,9,16,0.8);
+}
+body>header div.container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+body>header nav {
+	display: flex;
+}
+body>header nav a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 15px; 
+    border-bottom: solid 4px transparent;
+}
+body>header nav a:hover{
+    background-color: #7f9db7;
+    border-bottom: solid 4px #ff9000;
+}
+#logo p{
+    color: #fff;
+    font-weight: bold;
+}
+#sec1{
+    background: url(images/bg2.png)left bottom repeat-x ,url(images/banner-bg.jpg) left top no-repeat;
+    padding-bottom: 50px;
+}
+#leftSide{
+    padding-top: 120px;
+    padding-right: 10px;
+}
+#leftSide h1 ,p{
+    color: #fff;
+}
+#leftSide h1{
+    font-size: 2rem;
+}
+#leftSide p{
+    font-style: italic;
+}
+#leftSide h2{
+    color: #ff9000;
+    font-size: 2rem;
+   letter-spacing: 1px;
+   font-weight: 600;
+}
+#rightSide{
+    padding-top: 60px;
+    position: relative;
+}
+#rightSide img{
+    width: 500px;
+}
+#sec1 .container{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    color: #fff;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 0.9rem;
+	text-decoration: none;
+    border: #fff solid 1px;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+#black{
+    background-color: rgba(3,8,12,0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+#circle-box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#circle-box p{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.circle{
+    border: #fff 2px solid ;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    color: #fff;
+    margin-left: 10px;
+}
+#right h5{
+    color: #fff;
+    font-style: 400;
+}
+#right small{
+    color: #ff9000;
+    padding-left: 45px;
+}
+.mainHead{
+    padding-top: 130px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.mainHead h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-bottom: 20px; ;
+}
+.mainHead p{
+    color: #7f9db7;
+    padding-bottom: 20px; ;
+}
+#boxes{
+    padding-top: 150px;
+    padding-bottom: 60px;
+    justify-content: center;
+    display: flex;
+}
+#box1,#box2,#box3{
+    padding: 10px 30px;
+}
+#box1{
+    background-color: #ff9000;
+    color: #fff;
+}
+#box3{
+    border: 0.5px solid #7f9db7;
+    color: #7f9db7;
+}
+#box2{
+    border-bottom:0.5px solid #7f9db7 ;
+    border-top:0.5px solid #7f9db7 ;
+    color: #7f9db7;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+#left2{
+    width: 45%;
+}
+#left2 img{
+    border: #fff solid 5px;
+    outline: #7f9db7 solid 1px;
+}
+#right2{
+    width: 45%;
+}
+#right2 h6{
+    font-size: 1.53rem;
+    font-style: normal;
+    font-weight: 400;
+}
+#right2 small{
+    color: #ff9000;
+    font-size: 0.8rem;
+}
+#right2 p{
+    color: #7f9db7;
+}
+#sec3{
+    background-image: url(images/Services-bg.jpg);
+}
+#sec3 .mainHead {
+    color: #fff;
+}
+#sec3 p{
+    color: #fff;
+}
+#boxes3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#pic1,#pic2,#pic3,#pic4{
+    width: 245px;
+    height: 387px;
+    padding: 70px 50px 70px 58px;
+    position: relative;
+}
+#boxes3 h6{
+    color: rgba(255,255,255,0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 20px;
+}
+#pic1{
+    background-image: url(images/Development-bg.jpg);
+}
+#pic2{
+    background-image: url(images/desgin-bg.jpg);
+}
+#pic3{
+    background-image: url(images/concept-bg.jpg);
+}
+#pic4{
+    background-image: url(images/systam-bg.jpg);
+}
+#overlay1,#overlay2,#overlay3,#overlay4{
+    opacity: 0;
+    position: absolute;
+    top: 70;
+    bottom: 50px;
+    left: 65px;
+    right: 70px;
+}
+#boxes3>div>div{
+    opacity: 0.5 !important;
+ }
+ #boxes3>div:hover>div {
+     opacity: 1 !important;
+  }
+  #boxes3>div:hover>h6{
+     color: #fff!important;
+  }
+#sec4{
+    background-color: #ececec;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.yello-box{
+    width: 3%;
+    background-color: #ff9000;
+    padding: 35px 5px;
+    text-align: center;
+    color: #2d2d2d;
+}
+.dollar-box{
+    width: 15%;
+    background-color: #2d2d2d;
+    padding: 26px 20px;
+    color: #ff9000;
+    font-size: 2rem;
+}
+.white-box{
+    width: 10%;
+    background-color: #fff;
+    padding: 26px 20px;
+    color: #7f9db7;
+    border-right: #7f9db7 solid 1px;
+}
+.last-box{
+    width: 10%;
+    background-color: #2d2d2d;
+    padding: 35px 20px;
+    color: #fff;
+}
+.yello-box,.dollar-box,.white-box,.last-box{
+    text-align: center;
+}
+#cards{
+    padding-bottom: 100px;
+}
+#sec5{
+    background-image: url(images/Contact-bg.jpg);
+    padding-bottom: 70px;
+}
+#sec5 h2{
+    color: #fff;
+}
+#sec5 p{
+    color: #fff;
+}
+footer{
+    background-color: #000;
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#ar-left{
+    width: 45%;
+    padding: 30px 5px;
+}
+input{
+    width: 80%;
+    border: 0;
+    outline: 0;
+    padding: 15px 6px;
+    margin-bottom:15px;
+}
+#message{
+    padding-bottom: 100px;
+}
+button{
+    width:80% ;
+    border: 0;
+    outline: 0;
+    padding: 15px 6px;
+    color: #fff;
+    background-color: #ff9000;
+}
+#ar-right{
+    width: 45%;
+    padding: 30px 5px;
+}
+#ar-right h2{
+    color: #ff9000;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+#location,#mail,#phone{
+    display: flex;
+    padding-bottom: 20px;
+}
+#location p,#mail p,#phone p{
+    padding-left: 25px;
+}
+.move{
+    padding-left: 15px;
+}
+#copy{
+    background-image: url(images/Contact-bg.jpg);
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
